@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><b>Movie Recommendation App</b></h1>
+        <div class="search-input">
+            <input id="searchINP" type="text" placeholder="Search Movies......." />
+            <button id="searchBTN">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="dropDownContainers">
+        </div>
+        <section id="movieResults">
+            <h2 class="search-results-heading">Search Results</h2>
+            <div class="list-container">
+                <ul id="movie-list"></ul>
+            </div>
+        </section>
+        <section id="movieDetails">
+            <h2>Movie Details</h2>
+            <div id="movieDetailsContainer"></div>
+        </section>
+    </main>
+</body>
+
+</html>
